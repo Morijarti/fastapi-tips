@@ -1,9 +1,9 @@
 # 101 FastAPI Tips by [The FastAPI Expert]
 
-This repository contains trips and tricks for FastAPI. If you have any tip that you believe is useful, feel free
+This repository contains tips and tricks for FastAPI. If you have any tip that you believe is useful, feel free
 to open an issue or a pull request.
 
-Consider sponsor me on GitHub to support my work. With your support, I will be able to create more content like this.
+Consider sponsoring me on GitHub to support my work. With your support, I will be able to create more content like this.
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-%23EA4AAA)](https://github.com/sponsors/Kludex)
 
@@ -12,7 +12,7 @@ Consider sponsor me on GitHub to support my work. With your support, I will be a
 
 ## 1. Install `uvloop` and `httptools`
 
-By default, [Uvicorn][uvicorn] doesn't comes with `uvloop` and `httptools` which are faster than the default
+By default, [Uvicorn][uvicorn] doesn't come with `uvloop` and `httptools` which are faster than the default
 asyncio event loop and HTTP parser. You can install them using the following command:
 
 ```bash
